@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container1{
+            display: grid;
+            grid-auto-rows: 100px; /* automatically generated rows will be 100px high */
+            gap: 20px;
+            border: 2px solid;
+            width: fit-content;
+            height: fit-content;
+        }
+        .container2{
+            display: grid;
+            grid-auto-columns: 200px; /* automatically generated columns will be 200px wide */
+            gap: 5px;
+            border: 2px solid;
+            width: fit-content;
+        }
+
+        .item {
+            background-color: #bb8b8b;
+            padding: 20px;
+        }
+        b{
+            text-align: center;
+            color: #2510e7;
+            font-size: x-large;
+            text-shadow: 0 3px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Auto Row</h1>
+    <div class="container1">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <b>grid-auto-rows defines the size of rows that are automatically generated.
+        By default, it is set to auto,
+        which means that the size of the row will be determined by the content.</b>
+    </div>
+
+    <h1>Auto Column</h1>
+    <div class="container2">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <b>grid-auto-columns defines the size of columns that are automatically generated. By default, it is set to auto, which
+        means that the size of the column will be determined by the content.</b>
+    </div>
+</body>
+</html>

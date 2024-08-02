@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          justify-items: start;
+          border: 1px solid;
+          background-color: blue;
+          padding: 20px;
+        }
+        
+        .item1 {
+            border: 1px solid;
+            background-color: aqua;
+          justify-self: center; 
+        }
+        
+        .item2 {
+            border: 1px solid;
+            background-color: aqua;
+          justify-self: start; 
+        }
+        
+        .item3 {
+            border: 1px solid;
+            background-color: aqua;
+          justify-self: end; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item3">Item 3</div>
+        
+    </div>
+    <h1>justify-items</h1>
+    <b>justify-items is a property that applies to a grid or flex container, and it controls the horizontal alignment of all
+        child items within the container.</b>
+    
+    <h1>justify-self</h1>
+    <b>justify-self is a property that applies to a single grid or flex item, and it overrides the justify-items property
+        set
+        on the container. It controls the horizontal alignment of the item within its cell. </b>
+</body>
+</html>

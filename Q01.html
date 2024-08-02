@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            border: 1px solid black;
+            width: min-content;
+        }
+
+        #container1{
+            display: grid;
+            width: fit-content;
+            padding: 5px;
+            gap: 10px;
+            grid-template-columns: auto auto;
+        }
+        #container2{
+            display: grid;
+            width: fit-content;
+            padding: 5px;
+            gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .item{
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .item1{
+            width: 600px;
+            height: 150px;
+            border-radius: 5px;
+        }
+        .item2{
+            width: 300px;
+            height: 150px;
+            border-radius: 5px;
+        }
+        .item3{
+            width: 300px;
+            height: 300px;
+            border-radius: 5px;
+        }
+        .item4{
+            width: 300px;
+            height: 150px;
+            border-radius: 5px;
+        }
+        .item5{
+            width: 300px;
+            height: 145px;
+            border-radius: 5px;
+        }
+        .item6{
+            width: 300px;
+            height: 300px;
+            border-radius: 5px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div id="container1">
+            <div>
+                <img class="item item1" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-poXUX4kyiKNs1XspoFGRK38JfmDS0jIHQc8q7QfazfvdkA8g" alt="">
+            </div>
+            <div>
+                <img class="item item2" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlmy87mqepKD6p24F8U-R2RdjtTAlBAj0_JaaS8rr0I9xo9EmK" alt="">
+            </div>
+        </div>
+        <div id="container2">
+            <div>
+                <img class="item item3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQE9wFwR5zGO4ChrE4EjF2bh1PskfgFc0JSkUYdLinvFoLYNIa" alt="">
+            </div>
+            <div>
+                <img class="item item4" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRz9yjngeW7WbCi0mZ2MZzm7Xol2pXp8apG1wEz4ObussT2a5rO" alt="">
+                <img class="item item5" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSWuW2XFT7ivRWZ9n_wgBCBy6a7isAR0dUaeabNYwZdXun0m50U" alt="">
+            </div>
+            <div>
+                <img class="item item6" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYMk6KMc_8_CucDQ4yxcWpN-udcxiZaXicIV0Oy4bfeV8OkZOO" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
